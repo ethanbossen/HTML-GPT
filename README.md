@@ -1,14 +1,14 @@
-##Hugging Face Transformer Model Integration
+## Hugging Face Transformer Model Integration
 
 This repository demonstrates how to interact with Hugging Face models using the transformers library for various NLP tasks, including text generation and model fine-tuning. The project consists of two main scripts that showcase different aspects of working with Hugging Face transformers.
 
-Requirements
+# Requirements
 
 To run the code, ensure that you have the following libraries installed:
 
 ```pip install transformers datasets torch```
 
-#Scripts Overview
+# Scripts Overview
 
 1. Traing_gpt2.py - Fine-tuning a Language Model
 
@@ -53,6 +53,6 @@ Model Details
 Example Usage
 
 
-#Conclusion
+# Conclusion
 
 This repo showcases my findings and work within the huggingface libraries as I navigate towards standing up my own model specfically fine-tuned for generating interatable HTML and JS elements 
