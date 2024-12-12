@@ -1,16 +1,16 @@
-## Hugging Face Transformer Model Integration
+# Hugging Face Transformer Model Integration
 
 This repository demonstrates how to interact with Hugging Face models using the transformers library for various NLP tasks, including text generation and model fine-tuning. The project consists of two main scripts that showcase different aspects of working with Hugging Face transformers.
 
-# Requirements
+## Requirements
 
 To run the code, ensure that you have the following libraries installed:
 
 ```pip install transformers datasets torch```
 
-# Scripts Overview
+## Scripts Overview
 
-1. Traing_gpt2.py - Fine-tuning a Language Model
+ 1. Training_gpt2.py - Fine-tuning a Language Model
 
 This script fine-tunes a pre-trained GPT-2 model on a custom dataset (in this case, band information from the metal-archives dataset). The script does the following:
 	•	Loads the metal-archives-bands dataset.
@@ -27,7 +27,7 @@ To train the model:
 
 python Training_gpt2.py
 
-2. trained-model.py - Text Generation with LLaMA
+ 2. trained-model.py - Text Generation with LLaMA
 
 This script demonstrates how to generate text using the meta-llama/Llama-3.2-1B-Instruct model, including how to create custom prompt templates for specific tasks. The script includes the following:
 	•	Loads the LLaMA model and tokenizer.
@@ -49,9 +49,6 @@ Model Details
 	•	meta-llama/Llama-3.2-1B-Instruct: Used for instruction-based text generation.
 	•	openai-community/gpt2: Fine-tuned on the custom dataset.
 	•	Device: MPS (Apple Silicon), but can be adjusted for other hardware configurations.
-
-Example Usage
-
 
 # Conclusion
 
