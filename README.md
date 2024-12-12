@@ -25,7 +25,7 @@ Key Steps in train_model.py:
 
 To train the model:
 
-python Training_gpt2.py
+```python Training_gpt2.py```
 
  2. trained-model.py - Text Generation with LLaMA
 
